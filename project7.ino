@@ -14,7 +14,7 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature DS18B20(&oneWire);
 
 const char* ssid = "LeeWiFi";
-const char* pass = "tkddms201016701!";
+const char* pass = "";
 const char* server_ip = "52.79.218.18";
 
 char temperatureString[6];
